@@ -1,0 +1,6 @@
+### TSDX & Docz ###
+.rts2_cache_cjs
+.rts2_cache_esm
+.rts2_cache_umd
+.docz
+node_modules/

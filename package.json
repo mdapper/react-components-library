@@ -1,6 +1,6 @@
 {
-  "name": "react-components-library",
-  "version": "0.1.0",
+  "name": "@mdapper/react-components-library",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Marcelo Dapper",
   "main": "dist/index.js",
