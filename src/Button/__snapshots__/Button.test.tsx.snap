@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> renders 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #9575cd;
+  border-radius: 4px;
+  border: 1px solid #9575cd;
+  color: #fff;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-weight: bold;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  min-width: 140px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 16px;
+  -webkit-transition: border-color 300ms ease,background-color 300ms ease, color 300ms ease;
+  transition: border-color 300ms ease,background-color 300ms ease, color 300ms ease;
+}
+
+.c0:hover {
+  background-color: #7850bf;
+  border-color: #7850bf;
+}
+
+.c0:focus,
+.c0:active {
+  background-color: #603ba1;
+  border-color: #603ba1;
+}
+
+<button
+  class="c0"
+  data-testid="button"
+  type="button"
+>
+  Click here
+</button>
+`;
