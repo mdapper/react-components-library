@@ -2,6 +2,8 @@
 
 This is a demo for how to build a React components library using TSDX and Docz.
 
+> If you’re new to TypeScript and React, checkout [this handy cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet/)
+
 ## Commands
 
 The recommended workflow is to run TSDX in one terminal:
@@ -34,7 +36,12 @@ This is the folder structure:
 
 ```
 /src
-  index.tsx       # EDIT THIS
+  /Component             # Basic component structure
+    Component.test.tsx
+    Component.tsx
+    index.ts
+    README.mdx
+  index.tsx
 .eslintrc.js
 .gitignore
 .nvmrc
@@ -44,9 +51,9 @@ README.md         # EDIT THIS
 tsconfig.json
 ```
 
-#### React Testing Library
+#### Tests
 
-We do not set up `react-testing-library` for you yet, we welcome contributions and documentation on this.
+We already installed [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) so you can use it to test your components.
 
 ### Rollup
 
