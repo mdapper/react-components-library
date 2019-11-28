@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Anchor /> renders 1`] = `
+<a
+  href="#"
+  style="color: blue;"
+>
+  Click here
+</a>
+`;
+
+exports[`<Anchor /> renders with backgroundColor red 1`] = `
+<a
+  href="#"
+  style="color: red;"
+>
+  I'm red
+</a>
+`;
