@@ -20,6 +20,7 @@
     "docz:serve": "docz build && docz serve"
   },
   "peerDependencies": {
+    "polished": ">=3",
     "react": ">=16",
     "styled-components": ">=4"
   },
@@ -37,6 +38,7 @@
     "docz": "^2.1.1",
     "husky": "^3.1.0",
     "jest-styled-components": "^6.3.4",
+    "polished": "^3.4.2",
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1",
     "react": "^16.12.0",
