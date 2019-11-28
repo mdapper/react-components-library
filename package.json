@@ -13,6 +13,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --env=jsdom",
+    "test:watch": "yarn test --watch",
     "lint": "tsdx lint src",
     "docz:dev": "docz dev",
     "docz:build": "docz build",
@@ -27,6 +28,7 @@
     }
   },
   "devDependencies": {
+    "@testing-library/react": "^9.3.2",
     "@types/jest": "^24.0.23",
     "@types/react": "^16.9.13",
     "@types/react-dom": "^16.9.4",
