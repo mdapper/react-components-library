@@ -20,7 +20,8 @@
     "docz:serve": "docz build && docz serve"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=16",
+    "styled-components": ">=4"
   },
   "husky": {
     "hooks": {
