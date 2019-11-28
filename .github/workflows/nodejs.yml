@@ -12,9 +12,8 @@ jobs:
       uses: Borales/actions-yarn@v2.1.0
       with:
         node-version: ${{ matrix.node-version }}
-    - name: yarn install, test and lint
+    - name: yarn test and lint
       run: |
-        yarn
         yarn test
         yarn lint
       env:
