@@ -12,12 +12,6 @@ interface Props {
   disabled?: boolean;
 
   /**
-   * Loading state when waiting for an action to complete
-   * @default false
-   */
-  loading?: boolean;
-
-  /**
    * The type of the button
    * @default button
    */
@@ -29,20 +23,17 @@ interface Props {
 
 interface StyledProps {
   disabled: boolean;
-  loading?: boolean;
 }
 
 export const Button = ({
   children,
   disabled = false,
-  loading = false,
   onClick,
   type = 'button',
 }: Props) => (
   <ButtonStyled
     data-testid="button"
     disabled={disabled}
-    loading={loading}
     onClick={onClick}
     type={type}
   >
