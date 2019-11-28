@@ -1,6 +1,6 @@
-# React Components Library - Demo
+# React Components Library - [Demo](https://react-components-library.netlify.com/)
 
-This is a demo for how to build a React components library using TSDX and Docz.
+This is a demo for how to build a React components library using TSDX and Docz. This was presented on this [talk](https://slides.com/marcelodapper/reusable-component-library-with-react). 
 
 > If you’re new to TypeScript and React, checkout [this handy cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet/)
 
